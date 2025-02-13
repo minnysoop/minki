@@ -1,4 +1,5 @@
 site_name: Minnysoops's Wiki 
+site_url: https://minnysoop.github.io/wiki/
 nav:
   - Home: index.md
 theme:

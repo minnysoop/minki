@@ -1,0 +1,48 @@
+site_name: Minnysoops's Wiki 
+nav:
+  - Home: index.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+  logo: /assets/logo.png 
+  icon:
+    repo: fontawesome/brands/github
+  favicon: null  
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Dark
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: Light
+copyright: Copyright &copy; 2024 Min Soo Kang
+extra:
+  generator: false
+repo_url: https://github.com/minnysoop/wiki
+repo_name: minnysoop/wiki 
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - /stylesheets/custom.css

@@ -411,12 +411,20 @@ docs/
 singleton set <span class="arithmatex">\(e_G\)</span>, because otherwise <span class="arithmatex">\(\exists a,b\in G\)</span> with <span class="arithmatex">\(a\neq b\)</span> such
 that <span class="arithmatex">\(f(a)=f(b)\)</span>.</p>
 <div class="arithmatex">\[
-\cos x = \sum\limits_{k\,=0}^{\,\infty} \frac{(-1)^k x^{2k}}{(2k)!}
+\begin{align}
+\cos x = \sum\limits_{k=0}^{\infty} \frac{(-1)^k x^{2k}}{(2k)!}
+\end{align}
 \]</div>
 <p>When <span class="arithmatex">\(a \ne 0\)</span>, there are two solutions to <span class="arithmatex">\(ax^2 + bx + c = 0\)</span> and the are <span class="arithmatex">\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\)</span></p>
 <h2 id="code-snippets">Code Snippets</h2>
 <pre><code>print(&quot;hello, world!&quot;)
 </code></pre>
+<div class="arithmatex">\[
+\begin{align}
+\text{hash}(s) &amp;= s[0] + s[1] \cdot p + s[2] \cdot p^2 + ... + s[n-1] \cdot p^{n-1} \mod m \\
+&amp;= \sum_{i=0}^{n-1} s[i] \cdot p^i \mod m,
+\end{align}
+\]</div>
 
 
 

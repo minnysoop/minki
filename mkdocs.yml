@@ -2,9 +2,6 @@ site_name: Minnysoop's Wiki
 site_url: https://minnysoop.github.io/wiki/
 nav:
   - Home: index.md
-  - Developer Tools:
-    - Table of Contents: developer-tools/index.md
-    - Vim: developer-tools/vim/index.md
   - Systems:
     - Table of Contents: systems/index.md
   - Readings:

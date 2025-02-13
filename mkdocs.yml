@@ -2,6 +2,25 @@ site_name: Minnysoop's Wiki
 site_url: https://minnysoop.github.io/wiki/
 nav:
   - Home: index.md
+  - Developer Tools:
+    - Table of Contents: developer-tools/index.md
+    - Vim: developer-tools/vim/index.md
+  - Systems:
+    - Table of Contents: systems/index.md
+  - Readings:
+    - Table of Contents: readings/index.md
+  - Databases:
+    - Table of Contents: databases/index.md
+  - Math:
+    - Table of Contents: math/index.md
+  - Theory:
+    - Table of Contents: theory/index.md
+  - Research:
+    - Table of Contents: research/index.md
+  - Programming:
+    - Table of Contents: programming/index.md
+  - Blog:
+    - Table of Contents: blog/index.md
 theme:
   name: material
   features:
@@ -10,7 +29,6 @@ theme:
     - navigation.instant.progress
     - navigation.sections
     - toc.integrate
-    - navigation.top
   logo: assets/logo.png 
   icon:
     repo: fontawesome/brands/github

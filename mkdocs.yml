@@ -11,7 +11,7 @@ theme:
     - navigation.sections
     - toc.integrate
     - navigation.top
-  logo: /assets/logo.png 
+  logo: assets/logo.png 
   icon:
     repo: fontawesome/brands/github
   favicon: null  

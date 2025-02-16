@@ -1,5 +1,5 @@
 site_name: Minki 
-site_url: https://minnysoop.github.io/wiki/
+site_url: https://minnysoop.github.io/minki/
 nav:
   - Home: index.md
 theme:

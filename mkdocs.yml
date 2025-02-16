@@ -32,8 +32,8 @@ theme:
 copyright: Copyright &copy; 2024 Min Soo Kang
 extra:
   generator: false
-repo_url: https://github.com/minnysoop/wiki
-repo_name: minnysoop/wiki 
+repo_url: https://github.com/minnysoop/minki
+repo_name: minnysoop/minki 
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true

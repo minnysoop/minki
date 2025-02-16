@@ -2,22 +2,6 @@ site_name: Minnysoop's Wiki
 site_url: https://minnysoop.github.io/wiki/
 nav:
   - Home: index.md
-  - Systems:
-    - Table of Contents: systems/index.md
-  - Readings:
-    - Table of Contents: readings/index.md
-  - Databases:
-    - Table of Contents: databases/index.md
-  - Math:
-    - Table of Contents: math/index.md
-  - Theory:
-    - Table of Contents: theory/index.md
-  - Research:
-    - Table of Contents: research/index.md
-  - Programming:
-    - Table of Contents: programming/index.md
-  - Blog:
-    - Table of Contents: blog/index.md
 theme:
   name: material
   features:
